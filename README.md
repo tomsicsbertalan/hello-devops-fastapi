@@ -27,7 +27,6 @@ Egy egyszerű **FastAPI** "Hello World" alkalmazás, amely bemutatja a következ
 ---
 
 ## Lokális futtatás (fejlesztés)
-1. (opcionális) Hozz létre venv-et:
 ```bash
 python -m venv .venv
 source .venv/bin/activate      # Linux / macOS

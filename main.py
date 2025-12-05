@@ -10,3 +10,7 @@ def read_root():
 @app.get("/hello/{name}")
 def read_name(name: str):
     return {"message": f"Hello, {name}!"}
+
+@app.get("/greet")
+def greet():
+    return {"message": "Hello from feature branch!"}
