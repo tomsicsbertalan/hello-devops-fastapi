@@ -1,0 +1,36 @@
+# Hello DevOps - FastAPI (Beadandó)
+
+Egy egyszerű **FastAPI** "Hello World" alkalmazás, amely bemutatja a következő DevOps lépéseket:
+- kódkészítés (FastAPI)
+- verziókövetés (trunk-based workflow GitHub-on)
+- buildelés
+- konténerizálás (Docker)
+- választott extra: **Dev Container** (VS Code Dev Containers / GitHub Codespaces)
+
+---
+
+## Fájlok
+- `main.py` – a FastAPI app
+- `requirements.txt` – függőségek
+- `Dockerfile` – image build (production)
+- `.devcontainer/devcontainer.json` – devcontainer konfiguráció
+- `.gitignore`, `README.md` – dokumentáció
+
+---
+
+## Követelmények (lokálisan)
+- Git
+- Docker (ha a konténert futtatod)
+- Python 3.11 (ha lokálisan futtatod venv-ben)
+- VS Code + Remote - Containers (ha devcontainer-t használsz)
+
+---
+
+## Lokális futtatás (fejlesztés)
+1. (opcionális) Hozz létre venv-et:
+```bash
+python -m venv .venv
+source .venv/bin/activate      # Linux / macOS
+.venv\Scripts\activate         # Windows
+pip install --upgrade pip
+pip install -r requirements.txt
