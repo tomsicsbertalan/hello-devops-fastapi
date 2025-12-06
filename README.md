@@ -1,11 +1,11 @@
 # Hello DevOps - FastAPI (Beadandó)
 
 Egy egyszerű **FastAPI** "Hello World" alkalmazás, amely bemutatja a következő DevOps lépéseket:
-- kódkészítés (FastAPI)
-- verziókövetés (trunk-based workflow GitHub-on)
+- kódkészítés
+- verziókövetés
 - buildelés
 - konténerizálás (Docker)
-- választott extra: **Dev Container** (VS Code Dev Containers / GitHub Codespaces)
+- választott extra: Dev Container
 
 ---
 
