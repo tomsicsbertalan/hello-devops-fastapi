@@ -33,3 +33,19 @@ source .venv/bin/activate      # Linux / macOS
 .venv\Scripts\activate         # Windows
 pip install --upgrade pip
 pip install -r requirements.txt
+```
+---
+
+## Docker build + futtatás
+```bash
+docker build -t hello-devops-fastapi:v1 #buildelés
+docker run -p 8000:8000 hello-devops-fastapi:v1  #konténer futtatás
+```
+---
+
+## Dev Container futtatás
+
+>Reopen in Container
+```bash
+uvicorn main:app --reload --host 0.0.0.0
+```
